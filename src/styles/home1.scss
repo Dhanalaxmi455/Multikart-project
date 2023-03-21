@@ -1,0 +1,48 @@
+
+
+.container-home1{
+    padding-left: 3rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    // column-gap: 0.1rem;
+ 
+
+
+
+}
+.images{
+    position: relative;
+}
+.image{
+    position: relative;
+}
+.home1-pp{
+    position: absolute;
+top: 30%;
+left: 50%;
+font-size: 2.5rem;
+font-weight: 500;
+}
+.home1-p{
+position: absolute;
+top: 30%;
+left: 10%;
+font-size: 2.5rem;
+font-weight: 500;
+}
+.h3{
+    color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.home1-img:hover{
+    transform: scale(1.03);
+}

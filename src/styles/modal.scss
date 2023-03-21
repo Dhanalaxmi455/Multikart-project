@@ -1,0 +1,52 @@
+.model{
+    position: fixed;
+    height: 22rem;
+    width: 45rem;
+    top: 30%;
+    left: 30%;
+    z-index:1;
+  background-color: whitesmoke;
+}
+.model-container{
+    position: fixed;
+    right: -45rem;
+    top: 0;
+    z-index: 1;
+}
+.close{
+    padding: 0.7rem;
+    font-size: 2rem;
+    float: left;
+}
+.model-content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+   padding-left: 4rem;
+    gap: 1rem;
+    width: 40rem;
+    justify-content: center;
+    align-items: center;
+}
+.model-content h3{
+    font-size: 1.5rem;
+}
+
+    .model-content img{
+       width: 40rem;
+       padding-left: 4rem;
+    }
+    .model-content input{
+        width: 30rem;
+        height: 3rem;
+        border:1px solid lightgrey;
+        padding-left: 0.3rem;
+    }
+    .model-content button{
+    
+        background-color:orange;
+        height: 3rem;
+        width: 9rem;
+        border: none;
+        color:white;
+}

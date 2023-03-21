@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.total{
+    width: 100vw;
+    height: 14rem;
+    background-color: whitesmoke;
+    position: fixed;
+    z-index: 1;
+
+}
+
+
+.container{
+    width: 100vw;
+    height: 3.5rem;
+    background-color: orange;
+    display: flex;
+    gap: 2rem;
+    color: white;
+    padding: 1rem 0rem 0rem 1rem;
+   
+}
+
+.line{
+    padding-left: 4rem;
+}
+.container-last{
+    display: flex;
+    gap: 2rem;
+    padding-left: 40rem;
+    color: white;
+}
+.container-last-iconn{
+    text-decoration-line: underline;
+}
+.linee{
+   padding-left: 1rem;
+}
+span{
+    margin-right: 0.5rem;
+    font-size: 0.9rem;
+}
+
+
+

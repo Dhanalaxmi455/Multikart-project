@@ -1,24 +1,50 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from 'react';
+// import { useDispatch, useSelector } from 'react-redux';
+
+
+import './App.scss';
+import Navbar from '../src/components/navbar';
+import Navbar1 from '../src/components/navbar1';
+import Navbar2 from '../src/components/navbar2';
+import Home from "./components/home";
+import Home1 from "./components/home1";
+import Home2 from './components/home2';
+import Carousel from './components/carousel';
+import Footer from './components/footer';
+import Footer1 from './components/footer1';
+import ProductItems from './components/productitems';
+import Cart from './components/cart';
+// import {FiShoppingBag} from "react-icons/fi"
+import ProductItems1 from './components/productitems1';
+import Modal from "../src/components/modal"
 
 function App() {
+ 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+
+
+      <Navbar />
+    <Navbar1/>
+    <Cart/>
+    <Navbar2/>
+
+      <Carousel/>
+      <Modal/>
+      <Home/> 
+      <Home1/>
+      <ProductItems/>
+  
+    <Home2/>
+    <ProductItems/>
+    <ProductItems1/>
+
+      <Footer/>
+  
+      <Footer1/>
+    </>
+
+
   );
 }
 

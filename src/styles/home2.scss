@@ -1,0 +1,52 @@
+
+
+.container-home2{
+    background-image: url("https://multikart-react.vercel.app/assets/images/parallax/19.jpg");
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  
+
+}
+.home2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.home2-p{
+    width: 58rem;
+
+
+}
+
+.home2-img{
+width: 20rem;
+padding: 5rem 0rem 0rem 0rem;
+}
+.home2-h1{
+    font-size: 3rem;
+}
+.home2-h3{
+    font-size: 1.5rem;
+}
+.show{
+margin-top: 1rem;
+padding: 0.5rem;
+background-color: black;
+color: white;
+border-radius: 0.5rem;
+}
+.h1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
