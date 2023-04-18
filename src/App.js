@@ -17,31 +17,33 @@ import Cart from './components/cart';
 // import {FiShoppingBag} from "react-icons/fi"
 import ProductItems1 from './components/productitems1';
 import Modal from "../src/components/modal"
+import ImageSlider from './components/carousel';
+import { CarouselImages } from './components/carouselimages';
 
 function App() {
- 
+
   return (
     <>
 
 
       <Navbar />
-    <Navbar1/>
-    <Cart/>
-    <Navbar2/>
+      <Navbar1 />
+      <Cart />
+      <Navbar2 />
 
-      <Carousel/>
-      <Modal/>
-      <Home/> 
-      <Home1/>
-      <ProductItems/>
-  
-    <Home2/>
-    <ProductItems/>
-    <ProductItems1/>
+      <ImageSlider slides={CarouselImages} />
 
-      <Footer/>
-  
-      <Footer1/>
+      <Modal />
+      <Home />
+      <Home1 />
+      <ProductItems />
+
+      <Home2 />
+      <ProductItems />
+      <ProductItems1 />
+
+      <Footer />
+      <Footer1 />
     </>
 
 

@@ -1,60 +1,65 @@
-.nav{
+.nav {
     width: 100vw;
-height: 4rem;
-display: flex;
-// padding: 5rem 0rem 0rem 0rem;
-z-index: 1;
-position: relative;
+    height: 4rem;
+    display: flex;
+    padding: 5rem 0rem 0rem 0rem;
+    z-index: 1;
+    position: relative;
 
 }
-.container-navbar1{
-width: 100vw;
-height: 7rem;
-display: flex;
-padding: 5rem 0rem 0rem 0rem;
-// z-index: -1;
-position: absolute;
-position: fixed;
-top: 0.5rem;
+
+.container-navbar1 {
+    width: 100vw;
+    height: 7rem;
+    display: flex;
+    padding: 5rem 0rem 0rem 0rem;
+    z-index: -1;
+    position: absolute;
+    position: fixed;
+    top: 0.5rem;
 
 }
-.navbar1-icons{
-padding-left: 23rem;
-font-size: 1.7rem;
-display: flex;
-gap: 1rem;
+
+.navbar1-icons {
+    padding-left: 23rem;
+    font-size: 1.7rem;
+    display: flex;
+    gap: 1rem;
 
 }
-.navbar1-iconn{
+
+.navbar1-iconn {
     font-size: 1.5rem;
 }
-.navbar1-icon{
+
+.navbar1-icon {
     display: flex;
     gap: 1rem;
     flex-direction: column;
 }
 
-.navbar1-img{
+.navbar1-img {
     width: 12rem;
     height: 2rem;
     padding-left: 4rem;
-    
+
 }
-.input{
+
+.input {
     padding-left: 1.5rem;
-  
+
     border: 1px solid lightgrey;
     width: 30rem;
     height: 2rem;
     border-radius: 1.5rem;
-  
+
 }
-.navbar1-search
-{
+
+.navbar1-search {
     padding-left: 22rem;
     // width: 30rem;
     // height: 2.5rem;
     // border-radius: 1.5rem;
     // // padding-left: 1rem;
-   
+
 }
